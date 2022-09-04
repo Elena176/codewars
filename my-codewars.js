@@ -9,3 +9,16 @@ function capitals(word) {
     }
     return arr;
 }
+
+class Samurai {
+    constructor(name) {
+        this.name = name
+    }
+    hello() {
+        alert(this.name)
+    }
+}
+
+let shogun = new Samurai('Elena')
+console.log(shogun.__proto__)
+console.log(shogun.__proto__.constructor.__proto__)
